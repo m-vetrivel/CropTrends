@@ -1,8 +1,10 @@
-import { registerRootComponent } from 'expo';
+import "expo-router/entry";
 
-import App from './App';
+// NewsAPI.org
+// 1fed066d4cae4238b9bbf209c7f30cd8
 
-// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
-// It also ensures that whether you load the app in Expo Go or in a native build,
-// the environment is set up appropriately
-registerRootComponent(App);
+// The News API
+// HTu9YKBneZECBv8u43Zovrgfs7xz902qE7L2SysQ
+
+// currents api
+// bMAcJ1_mKOD7tkgprStBQ7wqTTuG5DnvepLfGwFmRMlUYPDi

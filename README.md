@@ -1,20 +1,20 @@
 # CropTrends 🌾 Your Smart Farming Companion
 
-**CropTrends** is a comprehensive React Native mobile application designed to empower farmers by providing crucial, real-time data to make informed decisions. The app serves as an all-in-one hub for localized weather forecasts, daily crop market prices, and the latest agricultural news.
+**CropTrends** is a comprehensive mobile application, built with Expo and React Native, designed to empower farmers by providing crucial, real-time data to make informed decisions. The app serves as an all-in-one hub for localized weather forecasts, daily crop market prices, and the latest agricultural news.
 
 ---
 
 ## 🤔 Why I Built CropTrends
 
-Farmers traditionally face a significant challenge: information is scattered, often delayed, and hard to access. To make critical decisions about harvesting, selling produce, and protecting crops, they need to consult separate sources for weather, find reliable market rates, and stay updated on agricultural news. This fragmentation can lead to missed opportunities and reduced profitability.
+This project began as a college assignment to identify and solve a real-world problem. I chose to focus on agriculture because farmers often face a significant challenge: information is scattered, delayed, and hard to access. This fragmentation can lead to missed opportunities and reduced profitability.
 
-I built **CropTrends** to solve this problem by centralizing all essential information into a single, user-friendly mobile application. The goal is to provide farmers with actionable, up-to-the-minute data right at their fingertips, helping them to maximize their yield, get the best prices for their crops, and stay ahead of environmental and market changes.
+The assignment evolved into a passion project to build **CropTrends**. The goal was to centralize all essential information into a single, user-friendly mobile application. It provides farmers with actionable, up-to-the-minute data right at their fingertips, helping them to maximize their yield, get the best prices, and stay ahead of environmental and market changes.
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Mobile Framework:** React Native
+* **Framework:** Expo (React Native)
 * **Backend & Database:** Appwrite
 * **APIs & Data Sources:**
     * **Market Data:** AGMARKNET API
@@ -51,11 +51,11 @@ Crop and market data is kept up-to-date and managed through a dedicated admin pa
 
 ## 🚀 Quick Start & Installation
 
-To get a local copy up and running, follow these simple steps.
+To get a local copy up and running, follow these simple steps using the Expo framework.
 
 ### Prerequisites
 * Node.js and npm/yarn installed.
-* React Native development environment set up (see [React Native Docs](https://reactnative.dev/docs/environment-setup)).
+* [Expo Go](https://expo.dev/go) app on your iOS or Android device.
 * An Appwrite instance running.
 
 ### Installation & Setup
@@ -82,14 +82,11 @@ To get a local copy up and running, follow these simple steps.
     ```
 
 4.  **Run the application**
-    * For Android:
-        ```bash
-        npx react-native run-android
-        ```
-    * For iOS:
-        ```bash
-        npx react-native run-ios
-        ```
+    Start the Metro bundler.
+    ```bash
+    npx expo start
+    ```
+    This will open a developer menu in your terminal. Use your phone to scan the QR code displayed in the terminal using the **Expo Go** app.
 
 ---
 
